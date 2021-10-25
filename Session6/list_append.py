@@ -14,10 +14,11 @@ def main():
         # Add another one?
         print('Do you want to add another name?')
         again = input('y = yes, anything else = no: ')
-        print()
+    
+    print()
 
-        # Display the names that were entered.
-        print('Here are the names you entered.')
+    # Display the names that were entered.
+    print('Here are the names you entered.')
 
     for name in name_list:
         print(name)
