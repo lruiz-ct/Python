@@ -20,6 +20,11 @@ def main():
 
         # Print the total.
         print(f'{total:,.2f}')
+
+    except IOError as error:
+        print('An error occured trying to read the file.'+ str(error))
+    except ValueError:
+        print('Non-numeric data found in the file.')
     except:
         print("An error ocurred")
     print('Program finished correctly')
